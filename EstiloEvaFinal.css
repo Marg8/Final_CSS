@@ -1,0 +1,282 @@
+body {
+	text-align: center;
+	font-size: 2em;
+	font-family: "Dancing Script";
+	max-width: 100%;
+	max-height: 100%;
+	font-weight: bold;
+}
+
+h1{font-size: 80px;
+}
+h2{font-size: 50px;
+	text-align: center;
+
+}
+.Menu{
+	float: right;
+  margin-right: 100px;
+	font-size: 50px;
+	text-decoration: underline /* OPTIMIZE:  */;
+	color: white;
+}
+
+p{
+	color: black;
+	font-size: 30px;
+	text-align: center;
+}
+figcaption{
+	font-size: 50px;
+
+}
+
+.contenedor {
+	margin: 0 auto;
+  width: 100%;
+	display: flex;
+	flex-flow: row wrap;
+}
+.contenedor2 {
+	margin: 0;
+  width: 100%;
+	display: flex;
+	flex-flow: row wrap;
+	font-size: 80px;
+}
+.contenedor div {
+  box-sizing: border-box;
+}
+
+.bloque1 {
+	color: white;
+	background-color:  #5b7989;
+	text-shadow: 2px 2px 2px black;
+	text-align:  left;
+	border-radius: 10px;
+	width: 100%;
+}
+
+.bloque2 {
+	color: black;
+	background-color: #82c3a6;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+
+}
+.bloque3 {
+	color: black;
+	background-color:  #d5c75f;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+  width: 50%;
+
+}
+
+.bloque4 {
+	color: black;
+	background-color:  #d5c75f;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 50%;
+
+
+}
+.contenedor3 {
+	color: black;
+	width: 100%;
+	border-radius: 10px;
+	display: flex;
+	flex-flow: row wrap;
+}
+
+.footer1{
+		width: 25%;
+		display: flex;
+		order: 1;
+		background-color:  #C6d5c5;
+
+
+}
+.footer2{
+		width: 25%;
+		display: flex;
+		order: 2;
+	  background-color:  #C6d5c5;
+	  text-align: left;
+}
+
+.footer3{
+		width: 25%;
+		display: flex;
+		order: 3;
+		background-color:  #C6d5c5;
+}
+
+.footer4{
+		width: 25%;
+		display: flex;
+		order: 4;
+	  background-color:  #C6d5c5;
+}
+a{
+	color: black;
+}
+
+img.pequeña{
+width: 400px; height: 300px;
+  padding:1px;
+	background-color: black;
+
+}
+img.pequeña:hover{
+	width: 400px; height: 300px;
+	  padding:1px;
+		background-color: black;
+		transform:rotate(10deg);
+		filter: drop-shadow(2px 2px 2px #82c3a6);
+}
+img.pequeña1{
+width: 400px; height: 300px;
+  padding:1px;
+	background-color: black;
+
+}
+img.pequeña1:hover{
+	width: 400px; height: 300px;
+	  padding:1px;
+		background-color: black;
+		transform:translate(20px,-5px);
+		filter: drop-shadow(2px 2px 2px #82c3a6);
+}
+
+img.mediana{
+width: 1000px; height: 300px;
+padding:1px;
+background-color: black;
+}
+
+@media all and (max-width: 1080px) and (min-width:700px) {
+	.contenedor{
+		width: 100%;
+	}
+	.bloque1 {
+		width: 100%;
+	}
+	.bloque2 {
+		width: 100%;
+
+	}
+
+	.contenedor2{
+		width: 100%;
+	}
+	.bloque3{
+		width: 100%;
+    order: 2;
+	}
+	.bloque4 {
+		width: 100%;
+		order: 1;
+
+	}
+	.contenedor3{
+		width: 100%;
+    order: 3;
+	}
+	img.mediana{
+	width: 700px; height: 450px;}
+
+	img.pequeña{
+	width: 700px; height: 450px;
+	  padding:1px;
+		background-color: black;
+
+	}
+	img.pequeña:hover{
+		width: 700px; height: 450px;
+		  padding:1px;
+			background-color: black;
+			transform:rotate(10deg);
+			filter: drop-shadow(2px 2px 2px #82c3a6);
+	}
+
+	img.pequeña1{
+	width: 700px; height: 450px;
+	margin-right: 600px none;
+	margin-left:400px none;
+}
+img.pequeña1:hover{
+	width: 700px; height: 450px;
+	  padding:1px;
+		background-color: black;
+		transform:translate(20px,-5px);
+		filter: drop-shadow(2px 2px 2px #82c3a6);
+}
+h1{font-size: 70px;
+   text-align: center;}
+.Menu{
+	text-align: center;
+  margin-left: 30px;
+	font-size: 50px;
+}
+.footer1{
+		width: 100%;
+		display: flex;
+		order: 1;
+		background-color:  #C6d5c5;
+    text-align: center;
+
+
+}
+.footer2{
+		width: 100%;
+		display: flex;
+		order: 2;
+	  background-color:  #C6d5c5;
+	  text-align: left;
+}
+
+.footer3{
+		width: 100%;
+		display: flex;
+		order: 3;
+		background-color:  #C6d5c5;
+}
+
+.footer4{
+		width: 100%;
+		display: flex;
+		order: 4;
+	  background-color:  #C6d5c5;
+
+}
+p{
+	color: black;
+	font-size: 50px;
+	text-align: center;
+}
+h2{
+	font-size: 50px;
+}
+figcaption{
+	font-size: 50px;
+
+}
+.contenedor {
+	margin: 0 auto;
+  width: 100%;
+	height: 100%;
+	display: flex;
+	flex-flow: row wrap;
+}
+.Menu{
+	float: right;
+  margin-right: 100px;
+	font-size: 35px;
+	text-decoration: underline /* OPTIMIZE:  */;
+	text-align: center;
